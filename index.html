@@ -1,6 +1,6 @@
 <html class="js backgroundsize borderimage csstransitions fontface svg" dir="ltr">
 <head>
-	<title>Untitled</title>
+	<title>Max Real Estate - Home</title>
 	<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/wet-boew/js/i18n/en.min.js"></script>
 	<script
 		src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_1_0/wet-boew/js/deps/jsonpointer.min.js"></script>
@@ -27,14 +27,15 @@
 
 <body>
 
-	</div>
+	
 	<div> <!-- start of header-->
 
-				<div class="app-bar">
+		<div class="app-bar">
 			<div class="container">
 				<div class="row">
 					<section class="col-xs-12">
-						<h2 class="wb-inv">Name of Web application</h2>
+						<!-- removing h2 -->
+						<!-- <h2 class="wb-inv">Name of Web application</h2> -->
 						<a class="app-name" href="./index-en.html">Hi/Max Real Estate</a>
 					</section>
 				</div>
@@ -49,15 +50,16 @@
 				<h2>Topics menu</h2>
 				<div class="row">
 					<ul role="menubar" class="list-inline menu">
-						<li><a class="item" href="index-en.html" tabindex="0" aria-posinset="1" aria-setsize="7"
-								role="menuitem">Home</a></li>
-						<li><a class="item" href="internet-en.html" tabindex="-1" aria-posinset="2" aria-setsize="7"
+						<!-- changed the class of each list item to reflect its role, changed tab index to 0 for all to allow visiting them using the tab -->
+						<li><a class="menu-item menu-home" href="index.html" tabindex="0" aria-posinset="1" aria-setsize="5"
+								role="menuitem" aria-current="page">Home</a></li>
+						<li><a class="menu-item menu-buying" href="internet-en.html" tabindex="0" aria-posinset="2" aria-setsize="5"
 								role="menuitem">Buying</a></li>
-						<li><a class="item" href="intranet-en.html" tabindex="-1" aria-posinset="3" aria-setsize="7"
+						<li><a class="menu-item menu-selling" href="intranet-en.html" tabindex="0" aria-posinset="3" aria-setsize="5"
 								role="menuitem">Selling</a></li>
-						<li><a class="item" href="faq-en.html" tabindex="-1" aria-posinset="6" aria-setsize="7"
+						<li><a class="menu-item menu-faqs" href="faq-en.html" tabindex="0" aria-posinset="4" aria-setsize="5"
 								role="menuitem">FAQs</a></li>
-						<li><a class="item" href="contact-en.html" tabindex="-1" aria-posinset="7" aria-setsize="7"
+						<li><a class="menu-item menu-contact" href="contact-en.html" tabindex="0" aria-posinset="5" aria-setsize="5"
 								role="menuitem">Contact us</a></li>
 					</ul>
 				</div>
@@ -69,7 +71,7 @@
 	</div> <!-- end of header-->
 
 	<main property="mainContentOfPage" class="container">
-		<h1>Welcome</h1>
+		<h1>Welcome to Max Real Estate</h1>
 		<p>Content A here</p>
 		<div class="row">
 			<div class="col-md-4 pull-right">
