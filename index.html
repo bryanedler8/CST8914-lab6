@@ -46,48 +46,48 @@
 
 	
 	<div> <!-- start of header-->
-
-		<div class="app-bar">
-			<div class="container">
-				<div class="row">
-					<section class="col-xs-12">
-						<!-- removing h2 -->
-						<!-- <h2 class="wb-inv">Name of Web application</h2> -->
-						<a class="app-name" href="./index-en.html">Hi/Max Real Estate</a>
-					</section>
+		<header role="banner">
+			<div class="app-bar">
+				<div class="container">
+					<div class="row">
+						<section class="col-xs-12">
+							<!-- removing h2 -->
+							<!-- <h2 class="wb-inv">Name of Web application</h2> -->
+							<a class="app-name" href="./index-en.html">Hi/Max Real Estate</a>
+						</section>
+					</div>
 				</div>
 			</div>
-		</div>
 
 
-		<div id="wb-sm" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl"
-			class="wb-menu visible-md visible-lg wb-init wb-data-ajax-replace-inited wb-menu-inited wb-navcurr-inited"
-			typeof="SiteNavigationElement">
-			<div class="pnl-strt container nvbar">
-				<h2>Topics menu</h2>
-				<div class="row">
-					<ul role="menubar" class="list-inline menu">
-						<!-- changed the class of each list item to reflect its role, changed tab index to 0 for all to allow visiting them using the tab -->
-						<li><a class="menu-item menu-home" href="index.html" tabindex="0" aria-posinset="1" aria-setsize="5"
-								role="menuitem" aria-current="page">Home</a></li>
-						<li><a class="menu-item menu-buying" href="internet-en.html" tabindex="0" aria-posinset="2" aria-setsize="5"
-								role="menuitem">Buying</a></li>
-						<li><a class="menu-item menu-selling" href="intranet-en.html" tabindex="0" aria-posinset="3" aria-setsize="5"
-								role="menuitem">Selling</a></li>
-						<li><a class="menu-item menu-faqs" href="faq-en.html" tabindex="0" aria-posinset="4" aria-setsize="5"
-								role="menuitem">FAQs</a></li>
-						<li><a class="menu-item menu-contact" href="contact-en.html" tabindex="0" aria-posinset="5" aria-setsize="5"
-								role="menuitem">Contact us</a></li>
-					</ul>
+			<div id="wb-sm" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl"
+				class="wb-menu visible-md visible-lg wb-init wb-data-ajax-replace-inited wb-menu-inited wb-navcurr-inited"
+				typeof="SiteNavigationElement">
+				<div class="pnl-strt container nvbar">
+					<h2>Topics menu</h2>
+					<div class="row">
+						<ul role="menubar" class="list-inline menu">
+							<!-- changed the class of each list item to reflect its role, changed tab index to 0 for all to allow visiting them using the tab -->
+							<li><a class="menu-item menu-home" href="index.html" tabindex="0" aria-posinset="1" aria-setsize="5"
+									role="menuitem" aria-current="page">Home</a></li>
+							<li><a class="menu-item menu-buying" href="internet-en.html" tabindex="0" aria-posinset="2" aria-setsize="5"
+									role="menuitem">Buying</a></li>
+							<li><a class="menu-item menu-selling" href="intranet-en.html" tabindex="0" aria-posinset="3" aria-setsize="5"
+									role="menuitem">Selling</a></li>
+							<li><a class="menu-item menu-faqs" href="faq-en.html" tabindex="0" aria-posinset="4" aria-setsize="5"
+									role="menuitem">FAQs</a></li>
+							<li><a class="menu-item menu-contact" href="contact-en.html" tabindex="0" aria-posinset="5" aria-setsize="5"
+									role="menuitem">Contact us</a></li>
+						</ul>
+					</div>
 				</div>
-			</div>
 
 
 		</div> <!-- end of main navigation-->
 
 	</div> <!-- end of header-->
 
-	<main property="mainContentOfPage" class="container">
+	<main property="mainContentOfPage" class="container" role="main" aria-label= "Main content">
 		<h1>Welcome to Max Real Estate</h1>
 		<p>Content A here</p>
 		<div class="row">
@@ -124,6 +124,7 @@
 
 
 	</main>
+	<footer role ="contentinfo" aria-lable= "Site information">
 	<div id="wb-info" class=" wb-navcurr-inited">
 		<div class="gc-sub-footer">
 			<div class="container d-flex align-items-center">
@@ -151,7 +152,8 @@
 
 			</div>
 		</div>
-	</div> <!-- end of footer-->
+	</div>
+	</footer> <!-- end of footer-->
 
 	<script>
 		var defFooter = document.getElementById("def-footer");
